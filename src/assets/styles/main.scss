@@ -1,0 +1,101 @@
+/**
+* CONTENTS
+*
+* SETTINGS
+* Global...............Globally-available variables and config.
+*
+* GENERIC, COMMON STYLES
+* Body ........Margin and main font declaration.
+* Page-head............The main page header.
+* Page-foot............The main page footer.
+* Specific custom styles..............Special spacers, fonts etc.
+*
+* COMPONENTS
+* Post pages............Custom post styles.
+* Carousel..............Custom carousel styles.
+* Grid cards............Minimal artist grid and cards.
+*
+*
+* PAGE LAYOUTS
+* Home.................Grid Mosaic.
+*/
+
+
+
+
+/*------------------------------------*\
+  #SETTINGS
+\*------------------------------------*/
+
+/**
+ * Import variables
+ */
+
+@import "variables";
+
+/**
+ * Import npm dependencies
+ * see: https://en.parceljs.org/module_resolution.html
+ * see commented examples below
+ */
+
+// @import "some-node-module";
+// @import "@some-company/some-node-module";
+
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import "~bootstrap/scss/bootstrap.scss";
+
+
+
+
+
+/*------------------------------------*\
+  #GENERIC, COMMON STYLES
+\*------------------------------------*/
+
+/**
+ * Import common styles from partial file
+ */
+
+@import "layouts/common";
+
+
+
+
+
+/*------------------------------------*\
+  #COMPONENTS
+\*------------------------------------*/
+
+/**
+ * Import post styles from partial file
+ */
+
+@import "layouts/post";
+
+/**
+ * Import artist grid and cards from partial file
+ */
+
+@import "layouts/art-styles";
+
+/**
+ * Import carousel from partial file
+ */
+
+@import "layouts/carousel";
+
+
+
+
+
+/*------------------------------------*\
+  #HOME GRID MOSAIC
+\*------------------------------------*/
+
+/**
+ * Import layouts
+ * It's a best practice to use a partial for each page
+ */
+
+@import "layouts/home-mosaic";

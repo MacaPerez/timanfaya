@@ -1,0 +1,53 @@
+/*------------------------------------*\
+  #CAROUSEL STYLES
+\*------------------------------------*/
+
+
+
+
+
+.carousel-inner {
+  height: 73vh;
+
+  @media screen and (max-width: $break-medium) {
+    height: 50vh;
+  }
+}
+
+.carouselInner__img {
+  height: 73vh;
+
+  @media screen and (max-width: $break-medium) {
+    height: 50vh;
+  }
+}
+
+
+.carouselCaption__h2 {
+  @media screen and (max-width: $break-medium) {
+    width:100%;
+  }
+}
+
+.carouselCaption__p {
+  @media screen and (max-width: $break-medium) {
+    width:100%;
+  }
+}
+
+.carouselText--coloredBg {
+  background: white;
+  width: 60%;
+  margin: auto;
+  padding: 15px;
+
+  @media screen and (max-width: $break-medium) {
+    width: 90%;
+  }
+
+  @media screen and (max-width:$break-small) {
+    width: 100%;
+    font-size: 1.1em;
+    background: #ffffffab;
+  }
+}

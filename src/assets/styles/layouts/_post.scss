@@ -1,0 +1,110 @@
+/*------------------------------------*\
+  #CUSTOM POST STYLES
+\*------------------------------------*/
+
+
+
+
+
+.post__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  background: url('../images/lava-landscape.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.post__tittle {
+  margin-top: -2em;
+  margin-bottom: 0.5em;
+  padding-left: 3rem;
+  color: $info;
+  border-left: 8px solid $info;
+  text-shadow: 1px 1.5px 3px rgba(0,0,0,0.80);
+
+  @media screen and (max-width:$break-medium) {
+      font-size: 2em;
+  }
+
+  @media screen and (max-width: $break-small) {
+    margin-top: 2.3em;
+    padding-left: 0;
+    font-size: 1.7em;
+    border-left: none;
+    color: $primary;
+  }
+}
+
+.post__tittle--detail {
+  color:$light;
+  border-right: 5px solid $secondary;
+  padding-right: 1rem;
+}
+
+.post__tittle--date {
+  margin: 2em 0 1em 2em;
+  padding: 0.5em 1em;
+  font-weight: 800;
+  font-size: 1.5em;
+  font-style: italic;
+  background: $secondary;
+
+  @media screen and (max-width:$break-medium) {
+    margin:auto;
+    font-size: 1.2em;
+  }
+
+  @media screen and (max-width: $break-small) {
+    font-size: 1em;
+    margin:auto;
+  }
+}
+
+
+.postOpening--bgColored {
+    margin: 1em 0 0 2.5em;
+    padding: 1em 1em 1em 1.7em;
+    font-size: 1.2em;
+    color: $light;
+    background: rgba(0,0,0,0.60);
+
+    @media screen and (max-width: $break-medium) {
+      margin: 0;
+      font-size: 1.1em;
+    }
+  }
+
+.post__pargh--stnd {
+    @media screen and (max-width:$break-medium) {
+      margin:auto;
+      font-size: 1em;
+    }
+
+    @media screen and (max-width: $break-small) {
+      margin:0;
+      padding: 0.5em;
+      font-size: 1em;
+    }
+  }
+
+.post__article--coloredBg {
+  display: flex;
+  align-items: center;
+  padding: 1.5em;
+  color: $light;
+  background: $secondary;
+
+  @media screen and (max-width:$break-medium) {
+    margin: auto;
+  }
+}
+
+.post__blockquoteP {
+  font-size: 0.8em;
+}
+
+.post__blockquoteCite {
+  color: $dark;
+}

@@ -1,0 +1,76 @@
+/*------------------------------------*\
+  #ARTIST GRID CARDS
+\*------------------------------------*/
+
+
+
+.section--coloredBg {
+  background: darken($dark,4%);
+  border-top: 8px solid $info;
+}
+
+.artist__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom:3em;
+  width: 80%;
+
+  @media screen and (max-width: $break-medium) {
+    width: 75%;
+  }
+
+  @media screen and (max-width: $break-small) {
+    width: 80%;
+  }
+}
+
+.artist__card {
+  width: 25%;
+  position: relative;
+
+  @media screen and (max-width: $break-medium) {
+    width: 50%;
+  }
+
+  @media screen and (max-width: $break-small) {
+    width: 100%;
+  }
+}
+
+.artist__info {
+  position: absolute;
+  right: 0.6rem;
+  color: white;
+
+  @media screen and (max-width: $break-small) {
+    background: rgba(255,255,255,0.67059);
+  }
+}
+
+.artist__info--top {
+  top:0.6rem;
+}
+
+.artist__info--bottom {
+  top:7rem;
+
+  @media screen and (max-width: $break-medium) {
+    top:1.3rem!important;
+  }
+}
+
+.artist__infoTittle {
+  font-size: 1.7em;
+
+  @media screen and (max-width: $break-medium) {
+    font-size: 1.5em;
+  }
+}
+
+.artist__bgBox {
+  padding: 5px 10px;
+  background: rgba(255,255,255,0.8);
+}
