@@ -5,7 +5,7 @@
 
 
 .section--coloredBg {
-  background: darken($dark,4%);
+  background: darken($dark, 4%);
   border-top: 8px solid $info;
 }
 
@@ -15,7 +15,7 @@
   justify-content: center;
   margin: auto;
   padding-top: 2em;
-  padding-bottom:3em;
+  padding-bottom: 3em;
   width: 80%;
 
   @media screen and (max-width: $break-medium) {
@@ -46,19 +46,19 @@
   color: white;
 
   @media screen and (max-width: $break-small) {
-    background: rgba(255,255,255,0.67059);
+    background: rgba(255, 255, 255, 0.67059);
   }
 }
 
 .artist__info--top {
-  top:0.6rem;
+  top: 0.6rem;
 }
 
 .artist__info--bottom {
-  top:7rem;
+  top: 7rem;
 
   @media screen and (max-width: $break-medium) {
-    top:1.3rem!important;
+    top: 1.3rem !important;
   }
 }
 
@@ -72,5 +72,5 @@
 
 .artist__bgBox {
   padding: 5px 10px;
-  background: rgba(255,255,255,0.8);
+  background: rgba(255, 255, 255, 0.8);
 }

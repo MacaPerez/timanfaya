@@ -22,10 +22,10 @@
   padding-left: 3rem;
   color: $info;
   border-left: 8px solid $info;
-  text-shadow: 1px 1.5px 3px rgba(0,0,0,0.80);
+  text-shadow: 1px 1.5px 3px rgba(0, 0, 0, 0.8);
 
-  @media screen and (max-width:$break-medium) {
-      font-size: 2em;
+  @media screen and (max-width: $break-medium) {
+    font-size: 2em;
   }
 
   @media screen and (max-width: $break-small) {
@@ -38,7 +38,7 @@
 }
 
 .post__tittle--detail {
-  color:$light;
+  color: $light;
   border-right: 5px solid $secondary;
   padding-right: 1rem;
 }
@@ -51,43 +51,43 @@
   font-style: italic;
   background: $secondary;
 
-  @media screen and (max-width:$break-medium) {
-    margin:auto;
+  @media screen and (max-width: $break-medium) {
+    margin: auto;
     font-size: 1.2em;
   }
 
   @media screen and (max-width: $break-small) {
     font-size: 1em;
-    margin:auto;
+    margin: auto;
   }
 }
 
 
 .postOpening--bgColored {
-    margin: 1em 0 0 2.5em;
-    padding: 1em 1em 1em 1.7em;
-    font-size: 1.2em;
-    color: $light;
-    background: rgba(0,0,0,0.60);
+  margin: 1em 0 0 2.5em;
+  padding: 1em 1em 1em 1.7em;
+  font-size: 1.2em;
+  color: $light;
+  background: rgba(0, 0, 0, 0.6);
 
-    @media screen and (max-width: $break-medium) {
-      margin: 0;
-      font-size: 1.1em;
-    }
+  @media screen and (max-width: $break-medium) {
+    margin: 0;
+    font-size: 1.1em;
   }
+}
 
 .post__pargh--stnd {
-    @media screen and (max-width:$break-medium) {
-      margin:auto;
-      font-size: 1em;
-    }
-
-    @media screen and (max-width: $break-small) {
-      margin:0;
-      padding: 0.5em;
-      font-size: 1em;
-    }
+  @media screen and (max-width: $break-medium) {
+    margin: auto;
+    font-size: 1em;
   }
+
+  @media screen and (max-width: $break-small) {
+    margin: 0;
+    padding: 0.5em;
+    font-size: 1em;
+  }
+}
 
 .post__article--coloredBg {
   display: flex;
@@ -96,7 +96,7 @@
   color: $light;
   background: $secondary;
 
-  @media screen and (max-width:$break-medium) {
+  @media screen and (max-width: $break-medium) {
     margin: auto;
   }
 }
