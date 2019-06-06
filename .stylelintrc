@@ -7,7 +7,6 @@
      "indentation": 2,
      "no-descending-specificity": null,
      "no-eol-whitespace": null,
-     "declaration-empty-line-before": null,
      "comment-whitespace-inside": null,
      "max-empty-lines": 5
    }
